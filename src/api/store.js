@@ -13,6 +13,7 @@ api.get("/api/product/list", (req, res) => {
             image:
                 "https://i5.walmartimages.com/asr/42a7ef85-28e9-4558-80b7-37b861655590.4357e6e7e5735988499e8fe415f0a8cf.png" +
                 "?odnWidth=612&odnHeight=612&odnBg=ffffff",
+            images: [],
         },
         {
             id: 2,
@@ -23,6 +24,7 @@ api.get("/api/product/list", (req, res) => {
             image:
                 "https://i5.walmartimages.com/asr/42a7ef85-28e9-4558-80b7-37b861655590.4357e6e7e5735988499e8fe415f0a8cf.png" +
                 "?odnWidth=612&odnHeight=612&odnBg=ffffff",
+            images: [],
         },
         {
             id: 3,
@@ -33,6 +35,7 @@ api.get("/api/product/list", (req, res) => {
             image:
                 "https://i5.walmartimages.com/asr/42a7ef85-28e9-4558-80b7-37b861655590.4357e6e7e5735988499e8fe415f0a8cf.png" +
                 "?odnWidth=612&odnHeight=612&odnBg=ffffff",
+            images: [],
         },
     ];
 
