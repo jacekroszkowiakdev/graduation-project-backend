@@ -43,6 +43,8 @@ api.get("/api/product/list", (req, res) => {
 });
 
 api.get("/api/product/:id", (req, res) => {
+    const { id } = req.params;
+
     const body = {
         id,
         name: "pampers 10pcs",
