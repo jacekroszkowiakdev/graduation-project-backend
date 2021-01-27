@@ -6,7 +6,6 @@ DROP TABLE IF EXISTS  users;
       last VARCHAR(255) NOT NULL CHECK (last != ''),
       email VARCHAR(255) NOT NULL UNIQUE CHECK (email != ''),
       password VARCHAR(255) NOT NULL CHECK (password != ''),
-      profile_pic VARCHAR,
-      bio VARCHAR(255),
+      order_history VARCHAR,
       created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
   );
