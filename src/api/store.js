@@ -36,9 +36,9 @@ const products = [
         images: [],
     },
 ];
+
 api.get("/api/product/list", (req, res) => {
     const body = products;
-
     res.json(body);
 });
 
