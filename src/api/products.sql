@@ -1,12 +1,11 @@
 DROP TABLE IF EXISTS  products;
 
-  CREATE TABLE users(
+  CREATE TABLE products(
       id SERIAL PRIMARY KEY,
-      first VARCHAR(255) NOT NULL CHECK (first != ''),
-      last VARCHAR(255) NOT NULL CHECK (last != ''),
-      email VARCHAR(255) NOT NULL UNIQUE CHECK (email != ''),
-      password VARCHAR(255) NOT NULL CHECK (password != ''),
-      profile_pic VARCHAR,
-      bio VARCHAR(255),
+      name VARCHAR(255) NOT NULL CHECK (name != ''),
+      description VARCHAR(255) NOT NULL CHECK (description != ''),
+      price DECIMAL(2) NOT NULL,
+      image VARCHAR,
+      images VARCHAR,
       created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
   );

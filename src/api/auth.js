@@ -10,7 +10,7 @@ api.get("/api/login", (req, res) => {
     res.json(body);
 });
 
-api.get("/api/register", (req, res) => {
+api.post("/api/register", (req, res) => {
     const body = {
         status: true,
         message: "user logged in as jacek",
